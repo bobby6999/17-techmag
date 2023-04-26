@@ -18,8 +18,33 @@ img {
 header {
   color:white;
   font-family: 'Space Grotesk';
+  background-image:
 }
 
 a.cta {
-  background-color: #060e17 ;
+  background-color: #060e17;
+  text-decoration:none ;
+}
+
+a.cta-light {
+  background-color: #e3f4ff;
+  text-decoration:none ;
+}
+
+main {
+  font-family: 'Space Grotesk';
+}
+
+.section-light {
+  font-family: 'Space Grotesk';
+  background-color:#e3f4ff
+}
+
+.section-dark {
+  color: #e3f4ff ;
+  background-color: #060e17;
+}
+
+footer {
+  background-color:#060e17;
 }
