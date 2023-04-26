@@ -19,10 +19,9 @@ header {
   color:white;
   font-family: 'Space Grotesk';
   background-image: url(/Users/machadomaria/Desktop/frontend/Sites/17-techmag/img/bckgrnd.jpg);
-  margin-bottom:30px;
 }
 
-nav{
+nav {
   display: flex; 
   flex-direction: column;
   align-items: center;
@@ -34,6 +33,7 @@ a.cta {
   border-radius: 10px;
   background-color: #060e17;
   text-decoration:none;
+  margin-bottom: 18px;
 }
 
 a.cta-light {
@@ -42,6 +42,7 @@ a.cta-light {
   border-radius: 10px;
   background-color: #e3f4ff;
   text-decoration:none ;
+  margin-bottom:30px;
 }
 
 main {
@@ -51,15 +52,30 @@ main {
 .section-light {
   font-family: 'Space Grotesk';
   background-color:#e3f4ff;
-  padding: 75px 63px 75px 63px; 
+  padding: 75px 63px 75px 63px;
+  text-align: center;
 }
 
 .section-dark {
   color: #e3f4ff ;
   background-color: #060e17;
-  padding: 75px 63px 75px 63px; 
+  padding: 75px 63px 75px 63px;
+  text-align: center;
+}
+.card {
+  color:#060e17;
+  background-color:#e3f4ff;
+  padding: 37px;
+  border-radius: 10px;;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: left;
+  margin-bottom:63px;
+
 }
 
 footer {
-  background-color:#e3f4ff;
+  background-color:#060e17;
 }
