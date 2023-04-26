@@ -18,15 +18,28 @@ img {
 header {
   color:white;
   font-family: 'Space Grotesk';
-  background-image:
+  background-image: url(/Users/machadomaria/Desktop/frontend/Sites/17-techmag/img/bckgrnd.jpg);
+  margin-bottom:30px;
+}
+
+nav{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
 }
 
 a.cta {
+  color:#e3f4ff;
+  padding: 7px 45px 7px 45px;
+  border-radius: 10px;
   background-color: #060e17;
-  text-decoration:none ;
+  text-decoration:none;
 }
 
 a.cta-light {
+  color:#060e17;
+  padding: 7px 45px 7px 45px;
+  border-radius: 10px;
   background-color: #e3f4ff;
   text-decoration:none ;
 }
@@ -37,14 +50,16 @@ main {
 
 .section-light {
   font-family: 'Space Grotesk';
-  background-color:#e3f4ff
+  background-color:#e3f4ff;
+  padding: 75px 63px 75px 63px; 
 }
 
 .section-dark {
   color: #e3f4ff ;
   background-color: #060e17;
+  padding: 75px 63px 75px 63px; 
 }
 
 footer {
-  background-color:#060e17;
+  background-color:#e3f4ff;
 }
